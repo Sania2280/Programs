@@ -1,0 +1,241 @@
+[2025/01/01 22:43:35.735] 
+##################################################################################
+############################## Ventoy2DiskX86  #############################
+##################################################################################
+[2025/01/01 22:43:35.735] Current Directory <C:\Users\HP GAMING\Desktop\ventoy-1.0.99>
+[2025/01/01 22:43:35.735] Exe file path <C:\Users\HP GAMING\Desktop\ventoy-1.0.99\Ventoy2Disk.exe>
+[2025/01/01 22:43:35.735] Current directory check OK.
+[2025/01/01 22:43:35.737] Current directory:<C:\Users\HP GAMING\Desktop\ventoy-1.0.99>
+[2025/01/01 22:43:35.766] ######### Current Ventoy Version: Ventoy2DiskX86 1.0.99 ########
+[2025/01/01 22:43:35.774] id=10412/6544
+[2025/01/01 22:43:35.776] PPath:<C:\Windows\explorer.exe>
+[2025/01/01 22:43:35.786] PSize:<5974480 5834KB>
+[2025/01/01 22:43:35.793] Lunch main process 0
+[2025/01/01 22:43:35.801] Control Flag: 0 1 1
+[2025/01/01 22:43:35.809] Windows Version: <<Windows 10 Pro, 64-bit (Build 19045.5247)>>
+[2025/01/01 22:43:35.815] 
+===================== Enum All PhyDrives =====================
+[2025/01/01 22:43:35.824] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2025/01/01 22:43:35.832] RegQueryValueExA <Count> ret:0  Size:4 Value:3
+[2025/01/01 22:43:35.840] GetPhysicalDriveCount: 3
+[2025/01/01 22:43:35.848] Logical Drives: 0x4c
+[2025/01/01 22:43:35.857] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:511442947584
+[2025/01/01 22:43:35.865] C --> 1
+[2025/01/01 22:43:35.873] LogicalDrive:\\.\D: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:15727591424
+[2025/01/01 22:43:35.880] D --> 2
+[2025/01/01 22:43:35.890] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\G:, error:1
+[2025/01/01 22:43:35.903] G --> -1
+[2025/01/01 22:43:35.910] Create file Handle:00000168 \\.\PhysicalDrive0 status:0
+[2025/01/01 22:43:35.922] PHYSICALDRIVE0 size 29260513280 bytes
+[2025/01/01 22:43:35.928] Create file Handle:0000015C \\.\PhysicalDrive1 status:0
+[2025/01/01 22:43:35.936] PHYSICALDRIVE1 size 512110190592 bytes
+[2025/01/01 22:43:36.305] Create file Handle:0000015C \\.\PhysicalDrive2 status:0
+[2025/01/01 22:43:36.306] PHYSICALDRIVE2 size 15728640000 bytes
+[2025/01/01 22:43:36.314] DeviceIoControl3 error:1 dwBytes:112
+[2025/01/01 22:43:36.324] PhyDrv:0 BusType:RAID Removable:0 Size:29GB(29260513280) Sector:512/512 Name: INTEL HBRPEKNX0202AHO
+[2025/01/01 22:43:36.332] PhyDrv:1 BusType:RAID Removable:0 Size:512GB(512110190592) Sector:512/512 Name: INTEL HBRPEKNX0202AH
+[2025/01/01 22:43:36.340] PhyDrv:2 BusType:USB  Removable:1 Size:16GB(15728640000) Sector:0/0 Name:Generic Flash Disk
+[2025/01/01 22:43:36.347] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:511442947584
+[2025/01/01 22:43:36.356] Logical Drive:C  ===> PhyDrive:1
+[2025/01/01 22:43:36.363] LogicalDrive:\\.\D: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:15727591424
+[2025/01/01 22:43:36.371] Logical Drive:D  ===> PhyDrive:2
+[2025/01/01 22:43:36.378] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\G:, error:1
+[2025/01/01 22:43:36.393] Logical Drive:G  ===> PhyDrive:-1
+[2025/01/01 22:43:36.845] Create file Handle:0000015C \\.\PhysicalDrive2 status:0
+[2025/01/01 22:43:36.848] Read MBR Ret:1 Size:512 code:183
+[2025/01/01 22:43:36.866] =========== Disk2 MBR Partition 1 ============
+[2025/01/01 22:43:36.880] PartTbl.Active = 0x80
+[2025/01/01 22:43:36.895] PartTbl.FsFlag = 0x7
+[2025/01/01 22:43:36.907] PartTbl.StartSectorId = 2048
+[2025/01/01 22:43:36.920] PartTbl.SectorCount = 30717952
+[2025/01/01 22:43:36.934] PartTbl.StartHead = 32
+[2025/01/01 22:43:36.944] PartTbl.StartSector = 33
+[2025/01/01 22:43:36.955] PartTbl.StartCylinder = 0
+[2025/01/01 22:43:36.967] PartTbl.EndHead = 254
+[2025/01/01 22:43:36.977] PartTbl.EndSector = 63
+[2025/01/01 22:43:36.990] PartTbl.EndCylinder = 1023
+[2025/01/01 22:43:37.002] =========== Disk2 MBR Partition 2 ============
+[2025/01/01 22:43:37.011] PartTbl.Active = 0x0
+[2025/01/01 22:43:37.027] PartTbl.FsFlag = 0x0
+[2025/01/01 22:43:37.039] PartTbl.StartSectorId = 0
+[2025/01/01 22:43:37.052] PartTbl.SectorCount = 0
+[2025/01/01 22:43:37.068] PartTbl.StartHead = 0
+[2025/01/01 22:43:37.079] PartTbl.StartSector = 0
+[2025/01/01 22:43:37.093] PartTbl.StartCylinder = 0
+[2025/01/01 22:43:37.103] PartTbl.EndHead = 0
+[2025/01/01 22:43:37.112] PartTbl.EndSector = 0
+[2025/01/01 22:43:37.128] PartTbl.EndCylinder = 0
+[2025/01/01 22:43:37.139] =========== Disk2 MBR Partition 3 ============
+[2025/01/01 22:43:37.149] PartTbl.Active = 0x0
+[2025/01/01 22:43:37.161] PartTbl.FsFlag = 0x0
+[2025/01/01 22:43:37.172] PartTbl.StartSectorId = 0
+[2025/01/01 22:43:37.182] PartTbl.SectorCount = 0
+[2025/01/01 22:43:37.194] PartTbl.StartHead = 0
+[2025/01/01 22:43:37.205] PartTbl.StartSector = 0
+[2025/01/01 22:43:37.213] PartTbl.StartCylinder = 0
+[2025/01/01 22:43:37.226] PartTbl.EndHead = 0
+[2025/01/01 22:43:37.239] PartTbl.EndSector = 0
+[2025/01/01 22:43:37.247] PartTbl.EndCylinder = 0
+[2025/01/01 22:43:37.260] =========== Disk2 MBR Partition 4 ============
+[2025/01/01 22:43:37.271] PartTbl.Active = 0x0
+[2025/01/01 22:43:37.280] PartTbl.FsFlag = 0x0
+[2025/01/01 22:43:37.293] PartTbl.StartSectorId = 0
+[2025/01/01 22:43:37.305] PartTbl.SectorCount = 0
+[2025/01/01 22:43:37.312] PartTbl.StartHead = 0
+[2025/01/01 22:43:37.325] PartTbl.StartSector = 0
+[2025/01/01 22:43:37.339] PartTbl.StartCylinder = 0
+[2025/01/01 22:43:37.348] PartTbl.EndHead = 0
+[2025/01/01 22:43:37.359] PartTbl.EndSector = 0
+[2025/01/01 22:43:37.374] PartTbl.EndCylinder = 0
+[2025/01/01 22:43:37.384] Part2 not match [0x0 0xef] [0 30720000] [0 65536]
+[2025/01/01 22:43:37.397] < INTEL HBRPEKNX0202AHO> is filtered for not USB type.
+[2025/01/01 22:43:37.407] < INTEL HBRPEKNX0202AH> is filtered for not USB type.
+[2025/01/01 22:43:37.499] Load languages from json file ...
+[2025/01/01 22:43:37.511] language json file len:276765 json parse:0
+[2025/01/01 22:43:37.513] Total 51 languages ...
+[2025/01/01 22:43:37.629] Not ventoy disk, set secure boot option
+[2025/01/01 22:43:37.645] Courier New font <C:\Windows\Fonts\couri.ttf> exist OK.
+[2025/01/01 22:43:37.645] system_dir=<C:\Windows\system32>
+[2025/01/01 22:43:37.656] sysnative_dir=<C:\Windows\Sysnative>
+[2025/01/01 22:43:37.689] LoadLibrary shell32.dll.mui SUCCESS
+[2025/01/01 22:43:37.689] SetAlertPromptHook SUCCESS
+[2025/01/01 22:44:00.354] SpaceMB:0 SizeInMB:15000
+[2025/01/01 22:44:00.715] DeviceIoControl3 error:1 dwBytes:112
+[2025/01/01 22:44:00.715] PhyDrive2 ALL match, now continue
+[2025/01/01 22:44:00.723] #####################################################
+[2025/01/01 22:44:00.732] InstallVentoy2PhyDrive try1 MBR PhyDrive2 <<Generic Flash Disk 16GB>>
+[2025/01/01 22:44:00.739] #####################################################
+[2025/01/01 22:44:00.756] Copy boot img success
+[2025/01/01 22:44:00.757] Disk signature: 0xab4893a1
+[2025/01/01 22:44:00.764] ReservedSector: 0
+[2025/01/01 22:44:00.772] Lock disk for clean ............................. 
+[2025/01/01 22:44:00.784] QueryDosDeviceA success \Device\Harddisk2\DR15
+[2025/01/01 22:44:01.168] [0] CreateFileA \\.\PhysicalDrive2 code:0 000002FC
+[2025/01/01 22:44:01.170] FSCTL_LOCK_VOLUME success
+[2025/01/01 22:44:01.182] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:511442947584
+[2025/01/01 22:44:01.197] LogicalDrive:\\.\D: PhyDrive:2 Num:1 Offset:1048576 ExtentLength:15727591424
+[2025/01/01 22:44:01.208] D: is belong to phydrive2
+[2025/01/01 22:44:01.217] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\G:, error:1
+[2025/01/01 22:44:01.225] Delete mountpoint D:\ ret:1 code:0
+[2025/01/01 22:44:01.236] Will use 'D:' as volume mountpoint
+[2025/01/01 22:44:12.475] VDS init OK, service 0099E7C4
+[2025/01/01 22:44:12.487] Callback 1 process for disk <\\?\PhysicalDrive2>
+[2025/01/01 22:44:12.488] Deleting ALL partitions from disk '\\?\PhysicalDrive2':
+[2025/01/01 22:44:12.496] * Partition 1 (offset: 1048576, size: 15727591424) delete it.
+[2025/01/01 22:44:17.605] Delete this partitions success
+[2025/01/01 22:44:17.606] VDS_DeleteAllPartitions 2 ret:1 (SUCCESS)
+[2025/01/01 22:44:17.613] Deleting all partitions ......................... OK
+[2025/01/01 22:44:17.625] Lock disk for write ............................. 
+[2025/01/01 22:44:17.631] QueryDosDeviceA success \Device\Harddisk2\DR15
+[2025/01/01 22:44:18.001] [0] CreateFileA \\.\PhysicalDrive2 code:0 00000370
+[2025/01/01 22:44:18.001] Opened \\.\PhysicalDrive2 for exclusive write access
+[2025/01/01 22:44:18.011] FSCTL_LOCK_VOLUME success
+[2025/01/01 22:44:18.024] Formatting part1 exFAT ...
+[2025/01/01 22:44:18.029] Formatting Part1 exFAT ...
+[2025/01/01 22:44:18.347] Formatting Part1 exFAT success
+[2025/01/01 22:44:18.349] Writing part2 FAT img ...
+[2025/01/01 22:44:18.358] FormatPart2Fat 30654464...
+[2025/01/01 22:44:18.376] Malloc whole img buffer success, now decompress ...
+[2025/01/01 22:44:19.077] decompress finished success
+[2025/01/01 22:44:19.078] VentoyProcSecureBoot 1 ...
+[2025/01/01 22:44:19.088] Secure boot is enabled ...
+[2025/01/01 22:44:23.869] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:23.948] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.047] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.148] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.253] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.354] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.457] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.558] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.660] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.764] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.865] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:24.967] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.069] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.170] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.271] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.373] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.479] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.555] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.653] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.753] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.856] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:25.956] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.059] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.160] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.262] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.364] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.465] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.566] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.666] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.764] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.864] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:26.965] Write part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.011] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.058] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.104] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.151] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.196] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.241] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.287] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.333] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.380] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.425] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.470] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.516] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.563] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.610] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.655] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.701] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.868] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.912] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:27.957] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.002] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.046] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.092] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.138] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.184] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.234] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.279] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.326] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.371] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.417] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.465] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.512] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.559] Read part data bRet:1 dwSize:1048576 code:183
+[2025/01/01 22:44:28.564] Writing Boot Image ............................. 
+[2025/01/01 22:44:28.567] WriteGrubStage1ToPhyDrive ...
+[2025/01/01 22:44:28.593] Write MBR stage1 ...
+[2025/01/01 22:44:28.728] WriteFile Ret:1 dwSize:1048064 ErrCode:183
+[2025/01/01 22:44:28.730] Writing Partition Table ........................ 
+[2025/01/01 22:44:28.742] Write MBR OK ...
+[2025/01/01 22:44:28.756] Mounting Ventoy Partition ....................... 
+[2025/01/01 22:44:29.759] LogicalDrive:\\.\C: PhyDrive:1 Num:1 Offset:122683392 ExtentLength:511442947584
+[2025/01/01 22:44:29.944] LogicalDrive:\\.\D: PhyDrive:2 Num:1 Offset:15695085568 ExtentLength:33554432
+[2025/01/01 22:44:29.944] D: is belong to phydrive2
+[2025/01/01 22:44:29.956] DeviceIoControl IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS failed \\.\G:, error:1
+[2025/01/01 22:44:29.964] Logical drive letter after write ventoy: <D>
+[2025/01/01 22:44:30.042] D:\ is ventoy part2, delete mountpoint
+[2025/01/01 22:44:30.042] need to mount ventoy part1...
+[2025/01/01 22:44:30.053] GetVentoyVolumeName PhyDrive 2 SectorStart:2048 PartOffset:1048576
+[2025/01/01 22:44:30.066] Find volume:\\?\Volume{cb9c397c-ad67-488d-b448-a370ddd4a3af}\
+[2025/01/01 22:44:30.079] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2025/01/01 22:44:30.096] NumberOfDiskExtents:1 DiskNumber:1
+[2025/01/01 22:44:30.114] This volume DiskNumber:1 offset:122683392
+[2025/01/01 22:44:30.127] Find volume:\\?\Volume{1f794ff5-cba1-4a53-9357-8ff8c70ee56e}\
+[2025/01/01 22:44:30.140] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2025/01/01 22:44:30.147] NumberOfDiskExtents:1 DiskNumber:1
+[2025/01/01 22:44:30.155] This volume DiskNumber:1 offset:511567724544
+[2025/01/01 22:44:30.163] Find volume:\\?\Volume{f3d6b5c7-c841-11ef-8aa3-84c5a6d6e2e5}\
+[2025/01/01 22:44:30.174] IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS bRet:1 code:0
+[2025/01/01 22:44:30.183] NumberOfDiskExtents:1 DiskNumber:2
+[2025/01/01 22:44:30.192] This volume DiskNumber:2 offset:1048576
+[2025/01/01 22:44:30.202] This volume match
+[2025/01/01 22:44:30.211] GetVentoyVolumeName return 0
+[2025/01/01 22:44:30.226] SetVolumeMountPoint <D:\> <\\?\Volume{f3d6b5c7-c841-11ef-8aa3-84c5a6d6e2e5}\> bRet:1 code:0
+[2025/01/01 22:44:30.235] Close handle ...
+[2025/01/01 22:44:30.262] No need to reformat for default exfat
+[2025/01/01 22:44:30.281] GetVolumeClusterSize D:\ SUCCESS 64 512 32768
+[2025/01/01 22:44:30.281] OK
+
+[2025/01/01 22:45:16.827] Combox select change, update secure boot option: 1 1
